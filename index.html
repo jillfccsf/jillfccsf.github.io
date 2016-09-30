@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Simply Flat</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <div>
+   <div class="container">
+     <header class="row">
+        <div class="one-half column">
             <h1>Simply Flat</h1>
         </div>
 
-        <nav>
+        <nav class="one-half column">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -23,15 +26,6 @@
         </nav>
     </header>
   <main>
-    <h4>Simply Flat</h4>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu posuere leo. Pellentesque a lobortis erat. Maecenas vel metus vitae urna sollicitudin eleifend a vel elit.</p>
-
-    <h4>Testimonials</h4>
-
-    <p>Consectetur adipiscing elit. Pellentesque eu posuere leo. Pellentesque a lobortis erat. Maecenas vel metus vitae urna sollicitudin eleifend a vel elit. LouEtta
-    </p>
-  
         <!-- Heading 1 -->
         <section>
             <h1>This theme is flat, fun and easy to customize.</h1>
@@ -46,7 +40,7 @@
             <a href="#">See Our Clients</a>
 
             <!-- Image, path to image is "images/home-banner.png", enter "Laptop" for alt attribute value -->
-            <img src="images/home-banner.png" alt="Laptop">
+            <img src="images/home-banner.png" alt="Laptop" class="img-responsive">
         </section>
         <section>
             <!-- Heading 3, make "Find Out More" a link and use "#" for href attribute value -->
@@ -119,7 +113,7 @@
 
         <section>
             <!-- Image, path to image is "http://lorempixel.com/400/275/business/", enter "Business meeting" for alt attribute value -->
-            <img src="http://lorempixel.com/400/275/business/" alt="Business meeting">
+            <img src="http://lorempixel.com/400/275/business/" alt="Business meeting" class="img-responsive">
             <!-- Heading 2 -->
             <h2>From the blog</h2>
 
@@ -131,9 +125,9 @@
         </section>
     </main>
     <!-- Footer-->
-    <footer>
+    <footer class="row">
         <!-- Heading 4 -->
-        <div>
+        <div class="one-third column">
             <h3>Simply Flat</h3>
 
             <!-- Paragraph -->
@@ -142,7 +136,7 @@
 
         <!-- Heading 4 -->
 
-        <div>
+        <div class="one-third column">
             <h4>Testimonials</h4>
 
 
@@ -153,7 +147,7 @@
             <!-- Heading 4 -->
 
         </div>
-        <div>
+        <div class="one-third column">
             <h4>Contact Us</h4>
 
             <!-- Unordered List, make the URL a link and use "#" for href attribute value-->
@@ -166,21 +160,22 @@
             </ul>
         </div>
         <!-- Heading 4 -->
-        <div>
+        <div class="one-whole column">
             <h4>We're Social</h4>
         </div>
         <!-- Social media icons go here - You will add them later -->
 
         <!-- Paragraph -->
-        <div>
+        <div class="one-half column">
             <p>&copy; 2013 Simply Flat</p>
         </div>
 
         <!-- Paragraph, make "Northify" a link and use "#" for href attribute value -->
-        <div>
+        <div class="one-half column">
             <p>Theme by <a href="#">Northify</a></p>
         </div>
     </footer>
+    </div><!--end of container-->
 </body>
 
 </html>
