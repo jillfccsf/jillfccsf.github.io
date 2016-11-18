@@ -444,9 +444,7 @@ ul {
     padding-bottom: 70px;
         color: #fff;
 }
-.sidebar {
-    padding: 30px;
-}
+
 
 .sidebar p {
     font-size: 13px;
@@ -460,10 +458,7 @@ ul {
 .sidebar li {
     font-size: 14px;
 }
-.recent-entries img {
-    float: left;
-    padding-right: 10px;
-}
+
 
 .photos img {
     padding-right: 10px;
@@ -503,7 +498,9 @@ ul {
 }
 
 /*contact page */
-
+.map iframe {
+    width: 100%;
+}
 
 .address,
 .address a {
@@ -585,7 +582,35 @@ ul {
         opacity: .9;
         background-color: #5adae2;
     }
-
+/* blog page */
+    .sidebar-form input[type="text"] {
+        height: 30px;
+        width: 125px;
+        padding: 0;
+        margin-bottom: 2px;
+        -webkit-border-radius: 4px 0 0 4px;
+        -moz-border-radius: 4px 0 0 4px;
+        border-radius: 4px 0 0 4px;
+    }
+    
+    .sidebar-form .btn {
+        height: 30px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        border: 0 none;
+        -webkit-transition: background 0.5s ease 0s;
+        -moz-transition: background 0.5s ease 0s;
+        transition: background 0.5s ease 0s;
+    }
+.recent-entries img {
+    float: left;
+    padding-right: 10px;
+}
 
 }
 
@@ -597,8 +622,13 @@ ul {
 .contentbox .one-half {
 width: 440px;
 }
-
-
+.sidebar {
+    padding: 30px;
+}
+.map iframe {
+width: 620px;
+height: 350px;
+}
     /* Portfolio */ 
 
 
