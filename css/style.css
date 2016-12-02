@@ -374,6 +374,7 @@ ul {
 
 .footer-bottom a {
 	color: #fff;
+	text-align: center;
 }
 
 .footer a:hover,
@@ -382,7 +383,7 @@ ul {
 }
 
 .footer-bottom a:hover {
-	color #5adae2;
+	color: #5adae2;
 }
 
 .social-list {
@@ -402,7 +403,7 @@ ul {
 }
 
 .social-list i:hover {
-	background color to #373737;
+	background color: #373737;
 }
 
 
