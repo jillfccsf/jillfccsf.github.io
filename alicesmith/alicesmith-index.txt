@@ -1,50 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- Header start -->
 
-<head><!--start of head-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-        <title>Alice Smith Lawyers</title>
-     <link rel="stylesheet" href="normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo" rel="stylesheet"> 
-     <link rel="stylesheet" href="style.css">
-
-
-</head><!--end of head-->  
-    
-<body><!--body start-->
-<header><!-- Header start -->
-    <div class="container">
-            <div class="row">
-                <div class="one-third column">
     <!-- Heading 1 with nested link for "Alice Smith", use "index.html" for href attribute value, use web font -->
-    <h1>Alice Smith</h1>
+    Alice Smith
     
-        <nav id="menu" class="two-thirds column nav"><!-- Nav start -->
+        <!-- Nav start -->
+        
             <!-- Unordered list, each list item is a link, target "about.html" for About, "#" for the rest -->
-            <ul class="pull-right">
-            <li>About</li>
-            <li>Services</li>
-            <li>Practice</li>
-            <li>Resources</li>
-            <li>Clients</li>
-            <li>Contacts</li>
-            </ul><!--unordered end-->
-        </nav><!-- Nav end -->
-                </div><!--one-third end-->
-            </div><!--row end-->
-    </div><!--container end-->
-    </header><!-- Header end -->
+            About
+            Services
+            Practice
+            Resources
+            Clients
+            Contacts
+            
+        <!-- Nav end -->
+	
+<!-- Header end -->
 
-<main class="main"><!--main start-->
-        <section><!-- Section start -->
-            <div class="container"><!--start container -->
-                <div class="row">
+<!-- Main start -->
+
+    <!-- Section start -->
+    
         <!-- Image, enter "Alice Smith" for alt attribute value --> 
         <!-- path to image file: images/slide1.jpg -->
         
         <!-- Div start -->
-        <div>
+        
             <!-- Heading 2, also wraps "your constitutional right for qualified legal help" -->
             Realize
             
@@ -54,17 +35,12 @@
             <!-- Em, use web font -->
             legal help
         
-       
-        </div> <!-- Div end -->
-        </div><!--row end-->
-     </div><!--container end-->
-   
-</section><!-- Section end -->
+        <!-- Div end -->
+        
+    <!-- Section end -->
+
+    <!-- Section start -->
     
-    <section><!-- Section start -->
-            <div class="container"><!--start container -->
-                <div class="row">   
-                    
         <!-- Heading 2 -->
         Welcome Message
         
@@ -76,14 +52,11 @@
         
         <!-- Paragraph with nested link -->
         Read More
-         
-        </div><!--row end-->
-     </div><!--container end-->        
-    </section><!-- Section end -->
+        
+    <!-- Section end -->
 
-	<section><!-- Section start -->
-            <div class="container"><!--start container -->
-                <div class="row">  	
+	<!-- Section start -->
+	
         <!-- Heading 2 -->
         Need Practical Help?
         
@@ -96,14 +69,10 @@
         <!-- Paragraph with nested link -->
         Read More
 		
-             </div><!--row end-->
-     </div><!--container end-->               
-                    
-    </section><!-- Section end -->
+	<!-- Section end -->
 
-	<section><!-- Section start -->
-            <div class="container"><!--start container -->
-                <div class="row">  	
+	<!-- Section start -->
+	
 		<!-- Heading 2 -->
 		News & Events
 
@@ -122,13 +91,10 @@
 		<!-- Paragraph with nested link -->
 		More News
 	 
-     </div><!--row end-->
-     </div><!--container end-->                  
-    </section><!-- Section end -->
+	 <!-- Section end -->
 
-	 <section><!-- Section start -->
-	           <div class="container"><!--start container -->
-                <div class="row">  	 
+	 <!-- Section start -->
+	 
 		<!-- Heading 2 -->
 		Areas of Practice
 	
@@ -159,19 +125,18 @@
         Landlord-Tenant Law
         Malpractice Law
         Serious Personal Injury Cases
-		</div><!--row end-->
-     </div><!--container end-->   
-    </section><!-- Section end -->
-    
-</main><!-- Main end -->		
+			
+	  <!-- Section end -->
+		
+<!-- Main end -->
 
-<footer><!-- Footer start -->
+
+<!-- Footer start -->
+
   <!-- Paragraph, make "Privacy Policy" a link -->
   Alice Smith &copy; Privacy Policy
 
   <!-- Paragraph -->
   Toll free number: 1-800-123-DATA
-</footer><!-- Footer end -->
-    
-</body>
-</html>
+
+<!-- Footer end -->
