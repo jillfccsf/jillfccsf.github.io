@@ -2,190 +2,276 @@
 <html lang="en">
 
 <head>
-    <!--start of head-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Alice Smith Lawyers</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> </head>
-<!--end of head-->
+    <title>Simply Flat</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="https://use.fontawesome.com/08174a6492.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" 
+src="https://code.jquery.com/jquery-1.10.0.min.js"></script>    
+<script type="text/javascript" src="js/toggle-navigation.js"></script>
+
+
+
+</head>
 
 <body>
-    <!--body start-->
-    <header>
-        <!-- Header start -->
+    <header class="header">
         <div class="container">
             <div class="row">
                 <div class="one-third column">
-                    <!-- Heading 1 with nested link for "Alice Smith", use "index.html" for href attribute value, use web font -->
-                    <h1 class="brand">Alice Smith</h1> </div>
-                <!--one-third end-->
-                <nav class="two-thirds column nav">
-                    <!-- Nav start -->
-                    <!-- Unordered list, each list item is a link, target "about.html" for About, "#" for the rest -->
+                    <h1 class="brand"><a href="index.html">Simply Flat</a></h1>
+                </div>
+                <a href="#menu" class="menu-link">Menu</a>
+                <nav id="menu" class="two-thirds column nav">
                     <ul class="pull-right">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Practice</a></li>
-                        <li><a href="#">Resources</a></li>
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
-                    <!--unordered end-->
                 </nav>
-                <!-- Nav end -->
             </div>
-            <!--row end-->
         </div>
-        <!--container end-->
     </header>
-    <!-- Header end -->
-    <main class="index-main">
-        <!--main start-->
-        <section>
-            <!-- Section start -->
+    <main class="main">
+        <!-- Heading 1 -->
+        <section class="page-header home">
             <div class="container">
-                <!--start container -->
-                <!-- Image, enter "Alice Smith" for alt attribute value -->
-                <!-- path to image file: images/slide1.jpg -->
-                <div class="index-img"> <img class="img-responsive" src="images/slide1.jpg">
-                    <!-- Heading 2, also wraps "your constitutional right for qualified legal help" -->
-                    <div class="index-title">
-                        <h1 class="realize">Realize<br>
-            
-<span class="light-opacity"> 
-            your constitutional right <br>
-            for qualified<br>
-                </span>
-                   <!-- Span -->
-     <span class="legal-help">  
-         legal help
-            <!-- Em, use web font -->
-                </span>
-                </h1> </div>
-                    <!-- index-title-->
-                </div>
-                <!--index img end-->
-            </div>
-            <!--container end-->
-        </section>
-        <!-- Section end -->
-        <section>
-            <!-- Section start -->
-            <div class="container index-padding">
-                <!--start container -->
                 <div class="row">
-                    <div class="one-third-index  column">
-                        <!-- Heading 2 -->
-                        <h2>Welcome Message</h2> <img src="images/page1-img1.jpg">
+                    <h1>This theme is flat, fun and easy to customize.</h1>
+                    <div class="one-half column">
                         <!-- Paragraph -->
-                        <p>Lorem ipsum dolor sit ametcon secteter adipn scing elit. Praesent sit vestib molestie. Aenean nonumy hendreit mauris.</p>
-                        <!-- Paragraph with nested link -->
-                        <p>Porta variusm natoque penatibus magnis. Montes nascetr mugiat suada odio. Morbi nunc odio, gravida atcursus nec luctus duis ultricies pharetra magna.</p>
-                        <!-- Paragraph with nested link -->
-                        <p><a href="#" class="myButton">READ MORE</a></p>
+                        <p>Sit in meis saepe, ea mei unum ancillae liberavisse. Alienum atomorum efficiantur sea, mei ex populo admodum. Est ei illum forensibus constituam, ut vidisse fabulas accusamus pro. Vis vero civibus te, nulla platonem quaerendum in eam</p>
+
+                        <!-- Link, use "#" for href attribute value -->
+                        <a href="#" class="btn"><i class="fa fa-plus"></i> Find Out More</a>
+                        <!-- Link, use "#" for href attribute value -->
+                        <a href="#" class="btn"><i class="fa fa-plus"></i> See Our Clients</a>
                     </div>
-                    <!--two-thirds ends-->
-                    <div class="one-third-index column">
-                        <!-- Heading 2 -->
-                        <h2>Need Practical Help</h2> <img src="images/page1-img2.jpg">
-                        <!-- Paragraph, Bold -->
-                        <p class="bold">Porta variusm hendreit mauris</p>
-                        <!-- Paragraph -->
-                        <p>Lorem ipsum dolor ametcon secteter adipcng elit. Praesent sit vestib moles­tie. Aenean nonumy hendreit mauris. Porta fusce variusm natoque penatibus magnis. Montes nascetr mugiat suada odio. Morbi nunc odio, gravida atcursus necin luctus uque duis ultricies.</p>
-                        <!-- Paragraph with nested link -->
-                        <p><a href="#" class="myButton">READ MORE</a></p>
+                    <!--end of one half column-->
+
+                    <div class="one-half column">
+                        <!-- Image, path to image is "images/home-banner.png", enter "Laptop" for alt attribute value -->
+                        <img src="images/home-banner.png" alt="Laptop" class="img-responsive">
                     </div>
-                    <div class="one-third-index column">
-                        <!-- Heading 2 -->
-                        <h2>News & Events</h2> <img src="images/page1-img3.jpg">
-                        <!-- Paragraph -->
-                        <p><a href="#" class="news-btn">Mon, July 30</a></p>
-                        <!-- Paragraph -->
-                        <p>Lorem ipsum dolor sit ametcon secteter ading praesent sit vestib molestie.</p>
-                        <!-- Paragraph -->
-                        <p><a href="#" class="news-btn">Wed, July 25</a></p>
-                        <!-- Paragraph -->
-                        <p>Aenean nonumy hendreit mauris. Porta fusce variusm natoque penatibus magnis.</p>
-                        <!-- Paragraph with nested link -->
-                        <p><a href="#" class="myButton">MORE NEWS</a></p>
-                    </div>
+                    <!--end of one half column-->
                 </div>
-                <!--row end-->
+                <!--end of row-->
             </div>
-            <!--container end-->
+            <!--end of container-->
         </section>
-        <!-- Section end -->
+
+        <section class="message">
+            <div class="container">
+                <!-- Heading 3, make "Find Out More" a link and use "#" for href attribute value -->
+                <h3>This theme is fully responsive. Well of course it is. This is great! <a href="#" class="btn"><i class="fa fa-plus"></i> Find Out More</a></h3>
+            </div>
+        </section>
+
+        <section class="main-content-top">
+            <div class="container">
+                <div class="row">
+                    <!-- Heading 1 -->
+                    <h1 class="text-center">You should you choose Simply Flat</h1>
+
+                    <div class="one-third column">
+                        <div class="contentbox-beige">
+                            <!-- Heading 3 -->
+                            <h3><i class="fa fa-tablet fa-2x"></i> Fully Responsive</h3>
+
+                            <!-- Paragraph -->
+                            <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+                        </div>
+                    </div>
+
+                    <div class="one-third column">
+                        <div class="contentbox-beige">
+                            <!-- Heading 3 -->
+                            <h3><i class="fa fa-heart fa-2x"></i> Super Flat &amp; Fun</h3>
+
+                            <!-- Paragraph -->
+                            <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+                        </div>
+                    </div>
+
+                    <div class="one-third column">
+                        <div class="contentbox-beige">
+                            <!-- Heading 3 -->
+                            <h3><i class="fa fa-cog fa-2x"></i> Easy to Configure</h3>
+
+                            <!-- Paragraph -->
+                            <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="main-content-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="one-half column">
+                        <div class="contentbox-beige">
+                            <!-- Heading 2 -->
+                            <h2 class="text-center">Showcase all your work</h2>
+
+                            <!-- Paragraph -->
+                            <p>Eruditi fabellas maiestatis ei vis, populo audiam mnesarchum et vis, prima saepe pri ad. Quidam nonumes an vel, no quo reque eloquentiam. Ex saperet omittantur vix, usu ut bonorum similique. Cum sale commodo ponderum id, nihil vidisse at sed, euismod vivendo ius ne.Quis error concludaturque.</p>
+                            <a href="#" class="btn"><i class="fa fa-plus"></i> See our Clients</a>
+                        </div>
+                        <!--contentbox-beige-->
+                    </div>
+                    <!--one-half column-->
+
+
+                    <div class="one-half column">
+
+                        <div class="one-quarter column alpha tile">
+                            <!-- Paragraph -->
+                            <i class="fa fa-bullhorn fa-5x"></i>
+                            <p>Sit amettur</p>
+                        </div>
+                        <div class="one-quarter column alpha tile">
+                            <i class="fa fa-camera fa-5x"></i>
+                            <p>Sadipiscing elit</p>
+                        </div>
+                        <div class="one-quarter column alpha tile">
+                            <i class="fa fa-heart fa-5x"></i>
+                            <!-- Paragraph -->
+                            <p>Pellsque eu posuere</p>
+                        </div>
+                        <!-- Paragraph -->
+                        <div class="one-quarter column alpha tile">
+                            <i class="fa fa-comment fa-5x"></i>
+                            <p>Dolor sit amet</p>
+                        </div>
+                        <!-- one-quarter column alpha tile-->
+                    </div>
+                    <!-- one-half column-->
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div class="contentbox">
+
+
+                    <!-- Image, path to image is "images/responsive.png", enter "Responsive" for alt attribute value -->
+                    <img src="images/responsive.png" alt="Responsive" class="img-responsive">
+
+
+                    <!-- Heading 2 -->
+
+                    <h2>Looks Great Everywhere</h2>
+                    <!-- Paragraph -->
+                    <p>Inani decore labore ei vel, vix ut agam soleat rendum. Cum meliore postulant ex, aliquam suscipit patrioque usu in meliore postulant.</p>
+                    <!-- Unordered list -->
+                    <ul>
+                        <li><i class="fa fa-check"></i> Point One</li>
+                        <li><i class="fa fa-check"></i> Point Two</li>
+                        <li><i class="fa fa-check"></i> Point Three</li>
+                        <li><i class="fa fa-check"></i> Point Four</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="blog-tease">
+            <div class="container">
+                <div class="row">
+                    <div class="one-third column">
+                        <!-- Image, path to image is "http://lorempixel.com/400/275/business/", enter "Business meeting" for alt attribute value -->
+                        <img src="http://lorempixel.com/400/275/business/" alt="Business meeting" class="img-responsive">
+                    </div>
+
+                    <div class="two-thirds column contentbox-turquoise">
+                        <!-- Heading 2 -->
+                        <h2>From the blog</h2>
+
+                        <!-- Paragraph -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu posuere leo. Pellentesque a lobortis erat. Maecenas vel metus vitae urna sollicitudin eleifend a vel adipiscing elit. Pellentesque eu posuere elit.</p>
+
+                        <!-- Link, use "#" for href attribute value -->
+                        <a href="#" class="btn"><i class="fa fa-plus"></i> Read more</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
-    <!-- Main end -->
-    <section>
-        <!-- Section start -->
-        <div class="container index-padding">
-            <!--start container -->
-            <div class="row">
-                <!-- Heading 2 -->
-                <h2>Areas of Practice</h2>
-                <!-- Unordered list, each list item is a link, use "#" for attribute value -->
-                <div class="one-sixth column index-practice-padding">
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="row">
+            <div class="container">
+                <!-- Heading 4 -->
+                <div class="one-third column">
+                    <h4>Simply Flat</h4>
+
+                    <!-- Paragraph -->
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu posuere leo. Pellentesque a lobortis erat. Maecenas vel metus vitae urna </p>
+                </div>
+
+                <!-- Heading 4 -->
+
+                <div class="one-third column">
+                    <h4>Testimonials</h4>
+
+
+                    <!-- Paragraph -->
+
+                    <p>Consectetur adipiscing elit. Pellentesque eu posuere leo. Pellentesque a lobortis erat. Maecenas vel metus vitae urna sollicitudin eleifend a vel elit. LouEtta
+                    </p>
+                    <!-- Heading 4 -->
+
+                </div>
+                <div class="one-third column">
+                    <h4>Contact Us</h4>
+
+                    <!-- Unordered List, make the URL a link and use "#" for href attribute value-->
                     <ul>
-                        <li><a href="#">Elder Abuse Cases</a></li>
-                        <li><a href="#">Employment Law</a></li>
-                        <li><a href="#">Family Law</a></li>
-                        <li> <a href="#">Immigration Law</a></li>
-                        <li><a href="#">Insurance Law</a></li>
+                        <li><i class="fa fa-home"></i> 5B Streat, City 50987</li>
+                        <li><i class="fa fa-envelope"></i> <a href="#"> info@example.com</a></li>
+                        <li><i class="fa fa-phone-square"></i> 1.541.258.2881</li>
+                        <li><i class="fa fa-print"></i> 1.541.854.8412</li>
+                        <li><i class="fa fa-globe"></i> <a href="#"> http://www.example.com</a></li>
                     </ul>
                 </div>
-                <div class="one-sixth column index-practice-padding">
-                    <!-- Unordered list, each list item is a link, use "#" for attribute value -->
-                    <ul>
-                        <li><a href="#">Malpractice Law</a></li>
-                        <li><a href="#">Real Property Law</a></li>
-                        <li><a href="#">Securities Law</a></li>
-                        <li><a href="#">Juvenile Law</a></li>
-                        <li><a href="#">Social Security Law</a></li>
+                <!-- Heading 4 -->
+                <div class="one-whole column">
+                    <h4 class="social">We're Social</h4>
+                    <ul class="social-list">
+                        <li><a href="#"><i class="fa fa-facebook fa-2x"></i> </a></li>
+                        <li><a href="#"><i class="fa fa-twitter fa-2x"></i> </a></li>
+                        <li><a href="#"><i class="fa fa-linkedin fa-2x"></i> </a></li>
+                        <li><a href="#"><i class="fa fa-pinterest fa-2x"></i> </a></li>
+                        <li><a href="#"><i class="fa fa-google-plus fa-2x"></i> </a></li>
                     </ul>
+                    <!-- Social media icons go here - You will add them later -->
                 </div>
-                <div class="one-sixth column index-practice-padding">
-                    <!-- Unordered list, each list item is a link, use "#" for attribute value -->
-                    <ul>
-                        <li><a href="#">Criminal Law</a></li>
-                        <li><a href="#">Intellectual Property</a></li>
-                        <li><a href="#">Class Action Lawsuits</a></li>
-                        <li><a href="#">Real Property Law</a></li>
-                        <li><a href="#">Business Law</a></li>
-                    </ul>
-                </div>
-                <!-- Unordered list, each list item is a link, use "#" for attribute value -->
-                <div class="one-sixth column index-practice-padding">
-                    <ul>
-                        <li><a href="#">Workers' Compensation Law</a></li>
-                        <li><a href="#">Labor Law</a></li>
-                        <li><a href="#">Landlord-Tenant Law</a></li>
-                        <li><a href="#">Malpractice Law</a></li>
-                        <li><a href="#">Serious Personal Injury Cases</a></li>
-                    </ul>
-                </div>
+                <section>
+                    <div class="footer-bottom">
+                        <!-- Paragraph -->
+                        <div class="one-half column">
+                            <p>&copy; 2013 Simply Flat</p>
+                        </div>
+
+                        <!-- Paragraph, make "Northify" a link and use "#" for href attribute value -->
+                        <div class="one-half column">
+                            <p>Theme by <a href="#">Northify</a></p>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <!--row end-->
         </div>
-        <!--container end-->
-    </section>
-    <!-- Section end -->
-    <div class="container">
-        <footer>
-            <!-- Footer start -->
-            <div class="one-half column">
-                <!-- Paragraph, make "Privacy Policy" a link -->
-                <p class="pull-left">Alice Smith &copy; <a href="#">Privacy Policy</a></p>
-            </div>
-            <!-- Paragraph -->
-            <div class="one-half column">
-                <p class="pull-right">Toll free number: 1-800-123-DATA</p>
-            </div>
-        </footer>
-        <!-- Footer end -->
-    </div>
+    </footer>
 </body>
 
 </html>
