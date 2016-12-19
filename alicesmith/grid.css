@@ -6,8 +6,6 @@
 
 .column {
     float: left;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .row {
@@ -15,30 +13,56 @@
 }
 
 .one-whole {
-    width: 940px;
+    width: 960px;
 }
 
 .three-quarters {
-    width: 700px;
-}
-
-.one-half {
-    width: 460px;
+    width: 800px;
 }
 
 .two-thirds {
-    width: 620px;
+    width: 640px;
+}
+
+.one-half {
+    width: 480px;
 }
 
 .one-third {
-    width: 300px;
+    width: 320px;
+}
+
+.one-third-index p {
+    width: 255px;
+    padding-right: 50px;
+    margin-left: 5px;
+}
+
+.index-padding {
+    padding-left: 30px;
+}
+
+.index-practice-padding {
+    padding-right: 40px;
 }
 
 .one-sixth {
-    width: 140px;
+    width: 160px;
 }
 
+.alpha {
+    margin-left: 0px;
+}
+
+.omega {
+    margin-right: 0px;
+}
 
 .one-quarter {
     width: 220px;
-	}
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
