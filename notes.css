@@ -1,0 +1,46 @@
+Start with
+
+CONTAINER
+    Add “container” div tags where appropriate  'DONE'
+         Container div is 960px wide and centered 'DONE'
+ROWS                
+    Add “row” div tags where appropriate 'DONE'
+
+THE GRID
+    Add divs with grid classes to create columns where appropriate
+
+OTHER CSS FILES (IF NEEDED)
+    type.css 
+    grid.css 'DONE'
+		 
+UNORDERED LISTS
+    All unordered list items contain hyperlinks (use # for src attribute value) 
+
+FONTS FOR HEADERS
+    The logo text in the header and the “legal help” text (on the Home page) uses a Google web font called 'Swanky and Moo Moo'. 
+   
+    Be sure to add an external link to the web font in style.css (refer to CSS Typography exercise for specific directions). 
+
+HEADER 
+    Logo text is Google web font 'Swanky and Moo Moo' 
+
+NAVIGATION
+    Hover text color is a sort of burnt-orange - #B45737
+ 
+INDEX PAGE
+     Caption text is absolutely positioned
+     'Legal help' text is Google web font 'Swanky and Moo Moo' and italicized 
+
+MAIN CONTENT
+    “Read More” buttons use a combination of border-radius, border, and background-color 
+    Button hover state should produce a lighter background color 
+    Areas of Practice” - Rollover text color is a sort of burnt-orange - #B45737 
+ 
+FOOTER 
+    Hover state for “Privacy Policy” generates an underline 
+
+ABOUT PAGE
+    Content is centered for top three columns 
+    “[...]” are links 
+    Hover state for “[...]” should be bold 
+    “Our Services at a glance” - Icons are background images 
